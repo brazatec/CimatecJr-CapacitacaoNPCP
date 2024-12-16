@@ -205,3 +205,88 @@ nav ul li a:hover {
 .presentation-section p {
     text-align: center;
 }
+
+/*Footer*/
+footer {
+    background-color: #200042;
+    padding: 20px 40px;
+    width: 100%;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer-section {
+    flex: 1 1 150px;
+}
+.footer-section h3 {
+    color: aquamarine;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.footer-section p, .footer-section ul, .footer-section form {
+    color: #fff;
+    font-size: 0.9em;
+}
+.footer-section ul {
+    list-style: none;
+}
+.footer-section li a {
+    color: #cfcfcf;
+}
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+.footer-section form {
+    display: flex;
+    align-items: center;
+}
+.footer-section form input[type="email"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+}
+.footer-section form button {
+    background-color: #8a2be2;
+    border: none;
+    padding: 8px 12px;
+    color: #fff;
+    font-size: 1em;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #aaa;
+}
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        text-align: center;
+    }
+    .footer-section form {
+        flex-direction: column;
+    }
+    .footer-section form input[type="email"],
+    .footer-section form button {
+        width: 100%;
+        border-radius: 5px;
+    }
+}
