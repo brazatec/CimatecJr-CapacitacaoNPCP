@@ -48,3 +48,40 @@ nav ul li a {
 nav ul li a:hover {
     color: #FFD700;
 }
+
+/* Código Carrossel*/
+.carousel {
+    margin-top: 20px; /* Espaço superior para não colidir com a barra de navegação */
+    text-align: center;
+    position: relative;
+    /*DIV GPT */
+}
+.carousel img {
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+}
+.carousel img.active {
+    display: block;
+}
+/* Estilo para os botões */
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.carousel .prev {
+    left: 10px;
+}
+.carousel .next {
+    right: 10px;
+}
+.carousel button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
