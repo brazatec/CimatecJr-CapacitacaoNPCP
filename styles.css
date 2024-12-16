@@ -85,3 +85,77 @@ nav ul li a:hover {
 .carousel button:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+/* Seção de produtos */
+.product-section {
+    background-color: #130231;
+    margin-top: 30px; /* Espaço entre o carrossel e a seção de produtos */
+    text-align: center;
+    /*DIV GPT */ 
+    padding: 40px 20px;
+    width: 100%; /* Garante que a seção ocupe toda a largura da tela */
+    text-align: center;
+    display: flex;
+}
+.product-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+/* Cartão de produto */
+.product-card {
+    margin-top: 50px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.product-section h2 {
+    text-align: center;
+    color: #ffffff;
+}
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.product-card h3 {
+    color: aquamarine;
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+.product-card p {
+    font-size: 0.9rem;
+    color: #cfcfcf;
+    margin-bottom: 20px;
+}
+.product-card button {
+    background-color: #1E90FF;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.product-card button:hover {
+    background-color: #d02833;
+}
+/* Fim da Seção de Produtos */
+.presentation-section {
+    margin-top: 380px;
+    padding: 40px 20px;
+    background-color: #1e1e2e;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
