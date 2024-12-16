@@ -20,4 +20,39 @@
             <h1>🤖 CYBER PRIME 🎮</h1>
             <p>Mergulhe em mundos de jogos virtuais incríveis e realistas com total imersão, utilizando o mais alto nível de tecnologia.</p>
         </section>
+
+    <!--Codigo Carrossel-->
+    <div class="carousel">
+        <!-- Link para suas imagens (substitua "sua-imagem-x.jpg" pelo link da sua imagem) -->
+        <img src="gow.png" alt="Imagem 1" class="active">
+        <img src="HL.jpg" alt="Imagem 2">
+        <img src="TLOU2.jpg" alt="Imagem 3">
+        <img src="CIMAJR.jpg" alt="Imagem 4">
+        
+        <!-- Botões de navegação -->
+        <button class="prev" onclick="showPrevImage()">&#10094;</button>
+        <button class="next" onclick="showNextImage()">&#10095;</button>
+    </div>
+
+    <script>
+        // JavaScript para controlar o carrossel
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.carousel img');
+
+        function showImage(index) {
+            images.forEach(img => img.classList.remove('active'));
+            images[index].classList.add('active');
+        }
+
+        function showNextImage() {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImage(currentIndex);
+        }
+
+        function showPrevImage() {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            showImage(currentIndex);
+        }
+    </script>
+    
     </body>
