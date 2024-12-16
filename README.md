@@ -67,6 +67,6 @@ Este projeto é de uso livre. Faça uso dos códigos e sinta-se à vontade para 
 Se você tiver alguma dúvida, entre em contato:
 
 - Nome: Davi Braz
-- Email: davi.brazcimatecjr@gmail.com
+- Email: davibraz.cimatecjr@gmail.com
 - GitHub: https://github.com/brazatec
 Obrigado por conferir este projeto! ❤️
